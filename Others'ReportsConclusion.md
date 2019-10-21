@@ -1,3 +1,6 @@
+Google doc link for all group members:    
+
+
 1. Tan, Zuxiong         
 multi-speaker identification         
 Acoustic Front-end Processing - Feature Extraction - Training process    
