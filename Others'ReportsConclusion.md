@@ -1,4 +1,4 @@
-Google doc link for all group members:    
+Google doc link for all group members (update for future members): https://docs.google.com/document/d/11oS9VapSDCgcF-1ow8jXt0pyNgFtETOp_dSg4TONE64/edit?usp=sharing
 
 
 1. Tan, Zuxiong         
