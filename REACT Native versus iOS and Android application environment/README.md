@@ -19,3 +19,6 @@ Basic technologies
 Who uses them    
 When do you use them?    
 What is the difference between them      
+
+PPT link:    
+https://docs.google.com/presentation/d/1IfVI1Z2mK5xu84xKLu7AKPTEa_7LFO2Aq9SW1JBYWiM/edit#slide=id.g758b27d9c1_0_70    
