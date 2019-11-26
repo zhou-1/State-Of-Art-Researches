@@ -1,5 +1,11 @@
 Compare REACT Native versus iOS and Android application environment     
 
+Need to deliver:     
+Demo of main user story.     
+Test of system.       
+Complete demonstration of results.     
+
+
 I.    
 Build example application on either iOS or Android (Same as example provided by either framework)        
 Implement ios with REACT Native   
