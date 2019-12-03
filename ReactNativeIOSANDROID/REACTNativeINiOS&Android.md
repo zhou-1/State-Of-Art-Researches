@@ -30,3 +30,6 @@ sometimes the docs aren’t updated to the latest react-native version and there
 ## Demo app on IOS
 
 
+## Run automated test using AWS test factory    
+
+
