@@ -27,4 +27,6 @@ Shadows are another important topic in terms of differences between iOS and Andr
 4. Linking Libraries    
 sometimes the docs aren’t updated to the latest react-native version and there might be some differences or errors which may take some time to fix.    
 
+## Demo app on IOS
+
 
