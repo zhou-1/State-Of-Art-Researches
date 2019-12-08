@@ -38,7 +38,23 @@ Need Node, Watchman, the React Native command line interface, and Xcode.
 Follow the command line code on this: https://facebook.github.io/react-native/docs/getting-started     
 
 ### Demo app1 - "hello world"     
+![demoImg1]()
 
+code is below:
+'''
+import React, { Component } from 'react';
+import { Text, View } from 'react-native';
+
+export default class HelloWorldApp extends Component {
+  render() {
+    return (
+        <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+          <Text>Hello, world!</Text>
+        </View>
+    );
+  }
+}
+'''
 
 
 ## Run automated test using AWS test factory    
