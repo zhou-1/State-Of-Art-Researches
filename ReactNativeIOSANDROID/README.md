@@ -36,7 +36,7 @@ Need Node, Watchman, the React Native command line interface, and Xcode.
 Follow the command line code on this: https://facebook.github.io/react-native/docs/getting-started     
 
 ### Demo app1 - "hello world"     
-<img src="https://github.com/zhou-1/State-Of-Art-Researches/blob/master/ReactNativeIOSANDROID/DemoImg/1.jpg" width="500">
+<img src="https://github.com/zhou-1/State-Of-Art-Researches/blob/master/ReactNativeIOSANDROID/DemoImg/1.jpg" width="400">
 
 code is below:
 ```
@@ -55,9 +55,12 @@ export default class HelloWorldApp extends Component {
 ```
 
 ### Demo app2 - pressed&Long-pressed button    
-![demoImg2](https://github.com/zhou-1/State-Of-Art-Researches/blob/master/ReactNativeIOSANDROID/DemoImg/2.jpg)   
-![demoImg3](https://github.com/zhou-1/State-Of-Art-Researches/blob/master/ReactNativeIOSANDROID/DemoImg/3.jpg)   
-![demoImg4](https://github.com/zhou-1/State-Of-Art-Researches/blob/master/ReactNativeIOSANDROID/DemoImg/4.jpg)   
+![demoImg2]()   
+<img src="https://github.com/zhou-1/State-Of-Art-Researches/blob/master/ReactNativeIOSANDROID/DemoImg/2.jpg" width="400">   
+![demoImg3]()   
+<img src="https://github.com/zhou-1/State-Of-Art-Researches/blob/master/ReactNativeIOSANDROID/DemoImg/3.jpg" width="400">   
+![demoImg4]()   
+<img src="https://github.com/zhou-1/State-Of-Art-Researches/blob/master/ReactNativeIOSANDROID/DemoImg/4.jpg" width="400">    
 
 code is below:
 ```
