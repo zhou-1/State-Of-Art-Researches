@@ -134,7 +134,10 @@ Step 1: Launch the instance
 Step 2: Download and install web browsers   
 Step 3: Download and install TestProject’s Agent   
 
+Run the test automation in AWS cloud with TestProject     
+receive report     
 
+Both of my apps work pretty well!   
 
 
 
