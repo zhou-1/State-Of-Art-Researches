@@ -1,6 +1,4 @@
-Compare REACT Native versus iOS and Android application environment     
-
-REACT Native versus iOS and Android environment        
+Compare REACT Native versus iOS and Android application environment           
 
 ## Expo development tools        
 1. Expo Client    
@@ -21,9 +19,9 @@ JSX — a syntax that is used to embed XML with JavaScript.
 
 ## Compare   
 1. Operating system    
-the recommended tool for React Native developers is a computer with macOS.    
+the recommended tool for React Native developers is a computer with macOS. In windows, we cannot download xcode, so we cannot develope ios.        
 2. Native element    
-while using elements from the React Native library, you may be surprised that, for example, using the Picker component produces a different result in the iOS simulator than in the Android emulator.     
+while using elements from the React Native library, for example, using the Picker component produces a different result in the iOS simulator than in the Android emulator.     
 3. Specific Styles - shadows    
 Shadows are another important topic in terms of differences between iOS and Android while working on cross platform app.      
 4. Linking Libraries    
