@@ -122,7 +122,18 @@ const styles = StyleSheet.create({
 
 
 ## Run automated test using AWS test factory    
-https://blog.testproject.io/2019/02/07/setup-cloud-test-automation-lab-using-aws/    
+https://blog.testproject.io/2019/02/07/setup-cloud-test-automation-lab-using-aws/      
+
+### Prerequisites    
+1. a TestProject account. Don’t worry, it’s FREE.    
+2. an Amazon Web Services (AWS) account.      
+
+
+### Create a Windows Virtual Machine:    
+Step 1: Launch the instance   
+Step 2: Download and install web browsers   
+Step 3: Download and install TestProject’s Agent   
+
 
 
 
