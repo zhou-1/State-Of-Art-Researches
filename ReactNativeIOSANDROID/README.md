@@ -56,6 +56,8 @@ export default class HelloWorldApp extends Component {
 }
 ```
 
+### Demo app2 - fashion   
+
 
 ## Run automated test using AWS test factory    
 
