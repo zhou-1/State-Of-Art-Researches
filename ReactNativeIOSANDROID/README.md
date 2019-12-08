@@ -55,11 +55,8 @@ export default class HelloWorldApp extends Component {
 ```
 
 ### Demo app2 - pressed&Long-pressed button    
-![demoImg2]()   
 <img src="https://github.com/zhou-1/State-Of-Art-Researches/blob/master/ReactNativeIOSANDROID/DemoImg/2.jpg" width="400">   
-![demoImg3]()   
-<img src="https://github.com/zhou-1/State-Of-Art-Researches/blob/master/ReactNativeIOSANDROID/DemoImg/3.jpg" width="400">   
-![demoImg4]()   
+<img src="https://github.com/zhou-1/State-Of-Art-Researches/blob/master/ReactNativeIOSANDROID/DemoImg/3.jpg" width="400">    
 <img src="https://github.com/zhou-1/State-Of-Art-Researches/blob/master/ReactNativeIOSANDROID/DemoImg/4.jpg" width="400">    
 
 code is below:
