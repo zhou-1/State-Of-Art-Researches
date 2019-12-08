@@ -28,7 +28,7 @@ Shadows are another important topic in terms of differences between iOS and Andr
 sometimes the docs aren’t updated to the latest react-native version and there might be some differences or errors which may take some time to fix.    
 
 ## Demo app on IOS
-Since my max is too old, version of my xcode is not recent, I can only use React Native CLI Quickstart instead of complete Expo CLI.    
+Since my mac is too old, version of my xcode is not recent, I can only use React Native CLI Quickstart instead of complete Expo CLI.    
 My target os for app is ios and my computer system is mac.    
 
 ### Environment set up    
