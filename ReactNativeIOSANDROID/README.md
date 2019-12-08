@@ -35,6 +35,11 @@ My target os for app is ios and my computer system is mac.
 
 ### Environment set up    
 Need Node, Watchman, the React Native command line interface, and Xcode.     
+Follow the command line code on this: https://facebook.github.io/react-native/docs/getting-started     
+
+### Demo app1 - "hello world"     
+
+
 
 ## Run automated test using AWS test factory    
 
