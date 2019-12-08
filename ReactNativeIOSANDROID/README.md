@@ -38,6 +38,8 @@ Follow the command line code on this: https://facebook.github.io/react-native/do
 ### Demo app1 - "hello world"     
 ![demoImg1](https://github.com/zhou-1/State-Of-Art-Researches/blob/master/ReactNativeIOSANDROID/DemoImg/1.jpg) { width: 100px; }
 
+<img src="https://github.com/zhou-1/State-Of-Art-Researches/blob/master/ReactNativeIOSANDROID/DemoImg/1.jpg" width="100">
+
 code is below:
 ```
 import React, { Component } from 'react';
