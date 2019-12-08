@@ -41,7 +41,7 @@ Follow the command line code on this: https://facebook.github.io/react-native/do
 ![demoImg1]()
 
 code is below:
-'''
+```
 import React, { Component } from 'react';
 import { Text, View } from 'react-native';
 
@@ -54,7 +54,7 @@ export default class HelloWorldApp extends Component {
     );
   }
 }
-'''
+```
 
 
 ## Run automated test using AWS test factory    
