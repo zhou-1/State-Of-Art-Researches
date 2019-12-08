@@ -122,5 +122,8 @@ const styles = StyleSheet.create({
 
 
 ## Run automated test using AWS test factory    
+https://blog.testproject.io/2019/02/07/setup-cloud-test-automation-lab-using-aws/    
+
+
 
 
