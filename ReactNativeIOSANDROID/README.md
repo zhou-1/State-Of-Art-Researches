@@ -38,7 +38,7 @@ Need Node, Watchman, the React Native command line interface, and Xcode.
 Follow the command line code on this: https://facebook.github.io/react-native/docs/getting-started     
 
 ### Demo app1 - "hello world"     
-![demoImg1]()
+![demoImg1](https://github.com/zhou-1/State-Of-Art-Researches/blob/master/ReactNativeIOSANDROID/DemoImg/1.jpg)
 
 code is below:
 ```
