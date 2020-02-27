@@ -5,9 +5,9 @@ Cloud is like a huge ship, dockers are building boxes on the ship.
 ![docker](docker.PNG)   
 
 <strong>
-"Build, ship and run"    
-"Build once, run anywhere"    
-</strong>    
+"Build, ship and run"      
+"Build once, run anywhere"       
+</strong>       
 Copy what I have done for current house as an image, put in a backpack; once go to a new place, paste this house design.      
 
 3 core concepts:    
