@@ -1,7 +1,8 @@
 README about Docker.    
 
 ## What is docker    
-Cloud is like a huge ship, dockers are boxed on the ship.     
+Cloud is like a huge ship, dockers are boxed on the ship.      
+![docker](docker.PNG)   
 
 
 ## Install   
