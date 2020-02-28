@@ -11,7 +11,7 @@ cd ulcwe (repo's name)
 ```
 and rename the directory:   
 ```
-git mv local xyz
+git mv local xyz  (current directory's name -> directory's name want to use)   
 ```
 For the change to be shareable, you need to commit it:    
 ```
