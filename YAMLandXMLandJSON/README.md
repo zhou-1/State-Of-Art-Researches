@@ -1,4 +1,6 @@
 ## WAL    
+In computer science, write-ahead logging (WAL) is a family of techniques for providing atomicity and durability (two of the ACID properties) in database systems. The changes are first recorded in the log, which must be written to stable storage, before the changes are written to the database.     
+In a system using WAL, all modifications are written to a log before they are applied. Usually both redo and undo information is stored in the log.     
 
 ## YAML
 
