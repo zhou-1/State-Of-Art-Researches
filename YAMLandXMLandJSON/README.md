@@ -20,11 +20,11 @@ YAML 支持的数据结构有三种:
 纯量（scalars）：单个的、不可再分的值
 
 
-<img src="https://github.com/zhou-1/State-Of-Art-Researches/blob/master/YAMLandXMLandJSON/XML.png" width="40%">
+<img src="https://github.com/zhou-1/State-Of-Art-Researches/blob/master/YAMLandXMLandJSON/XML.png" width="30%">
 
 
     
-<img src="https://github.com/zhou-1/State-Of-Art-Researches/blob/master/YAMLandXMLandJSON/JSON.png" wofth="50%">
+<img src="https://github.com/zhou-1/State-Of-Art-Researches/blob/master/YAMLandXMLandJSON/JSON.png" wofth="30%">
 
 
 
