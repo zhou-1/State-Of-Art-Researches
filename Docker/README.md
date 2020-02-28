@@ -22,4 +22,7 @@ Docker's start speed is quick, only need a few seconds; it can use resource very
 
 
 ## Install   
-https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04     
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04       
+
+Ubuntu 14.04 LTS    
+sudo apt-get install -y --install-recommends linux-generic-lts-x enial    
