@@ -5,6 +5,9 @@ an open-source on-disk key-value store written by Google fellows Jeffrey Dean an
 
 具有很高的随机写，顺序读/写性能，但是随机读的性能很一般，也就是说，LevelDB很适合应用在查询较少，而写很多的场景。
 
+leveldb提供的是KV格式的存储，支持二进制数据    
+https://www.jianshu.com/p/e904834932a1    
+
 特点：   
 1、key和value都是任意长度的字节数组；   
 2、entry（即一条K-V记录）默认是按照key的字典顺序存储的，当然开发者也可以重载这个排序函数；   
