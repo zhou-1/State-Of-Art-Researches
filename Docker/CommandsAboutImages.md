@@ -4,7 +4,8 @@
 列出镜像：docker images      
 进入容器，修改其内容：docker exec      
 查看具体的改动：docker diff      
-
+叠加容器的存储层，构成新的镜像：docker commit （实际环境中慎用！！）     
+定制镜像：Dockerfile 脚本     
 
 
 ## 获取镜像    
@@ -110,20 +111,56 @@ docker commit 的语法格式为：
 ```
 docker commit [选项] <容器ID或容器名> [<仓库名>[:<标签>]]      
 ```
+使用 docker commit 命令虽然可以比较直观的帮助理解镜像分层存储的概念，但是实际环境中并不会这样使用。     
+首先，如果仔细观察之前的 docker diff webserver 的结果，你会发现除了真正想要修改的 /usr/share/nginx/html/index.html 文件外，由于命令的执行，还有很多文件被改动或添加了。这还仅仅是最简单的操作，如果是安装软件包、编译构建，那会有大量的无关内容被添加进来，如果不小心清理，将会导致镜像极为臃肿。    
+此外，使用 docker commit 意味着所有对镜像的操作都是黑箱操作，生成的镜像也被称为黑箱镜像，换句话说，就是除了制作镜像的人知道执行过什么命令、怎么生成的镜像，别人根本无从得知。而且，即使是这个制作镜像的人，过一段时间后也无法记清具体在操作的。      
+如果使用 docker commit 制作镜像，以及后期修改的话，每一次修改都会让镜像更加臃肿一次，所删除的上一层的东西并不会丢失，会一直如影随形的跟着这个镜像，即使根本无法访问到。      
+docker commit 命令除了学习之外，还有一些特殊的应用场合，比如被入侵后保存现场等。但是，不要使用 docker commit 定制镜像，定制行为应该使用Dockerfile 来完成      
 
+## 定制镜像     
+Dockerfile 脚本是一个文本文件，其内包含了一条条的指令(Instruction)，每一条指令构建一层，因此每一条指令的内容，就是描述该层应当如何构建。         
 
+在一个空白目录中，建立一个文本文件，并命名为 Dockerfile ：     
+```
+$ mkdir mynginx
+$ cd mynginx
+$ touch Dockerfile
+```
+其内容为：    
+FROM nginx    
+RUN echo '<h1>Hello, Docker!</h1>' > /usr/share/nginx/html/index.html     
+这个 Dockerfile 很简单，一共就两行。涉及到了两条指令， FROM 和 RUN 。     
 
-
-
-
-
-
-
-
-
-
-
-
+所谓定制镜像，那一定是以一个镜像为基础，在其上进行定制。     
+而FROM 就是指定基础镜像，因此一个 Dockerfile 中 FROM 是必备的指令，并且必须是第一条指令。     
+```
+FROM scratch
+```
+RUN 指令是用来执行命令行命令的。由于命令行的强大能力， RUN 指令在定制镜像时是最常用的指令之一。其格式有两种：     
+1. shell 格式： RUN <命令> ，就像直接在命令行中输入的命令一样。刚才写的Dockrfile 中的 RUN 指令就是这种格式。   
+```
+RUN echo '<h1>Hello, Docker!</h1>' > /usr/share/nginx/html/index.html
+```
+2. exec 格式： RUN ["可执行文件", "参数1", "参数2"] ，这更像是函数调用中的格式。     
+```
+FROM debian:jessie
+RUN buildDeps='gcc libc6-dev make' \
+&& apt-get update \
+&& apt-get install -y $buildDeps \
+&& wget -O redis.tar.gz "http://download.redis.io/releases/r
+edis-3.2.5.tar.gz" \
+&& mkdir -p /usr/src/redis \
+&& tar -xzf redis.tar.gz -C /usr/src/redis --strip-component
+s=1 \
+&& make -C /usr/src/redis \
+&& make -C /usr/src/redis install \
+&& rm -rf /var/lib/apt/lists/* \
+&& rm redis.tar.gz \
+&& rm -r /usr/src/redis \
+&& apt-get purge -y --auto-remove $buildDeps
+```
+首先，之前所有的命令只有一个目的，就是编译、安装 redis 可执行文件。因此没有必要建立很多层，这只是一层的事情。因此，这里没有使用很多个 RUN 对一一对应不同的命令，而是仅仅使用一个 RUN 指令，并使用 && 将各个所需命令串联起来。
+在撰写 Dockerfile 的时候，要经常提醒自己，这并不是在写 Shell 脚本，而是在定义每一层该如何构建。    
 
 
 
