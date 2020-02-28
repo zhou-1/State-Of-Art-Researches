@@ -19,12 +19,12 @@ YAML 支持的数据结构有三种:
 数组：一组按次序排列的值，又称为序列（sequence） / 列表（list）
 纯量（scalars）：单个的、不可再分的值
 
-![XML](XML.png){:height="50%" width="50%"}    
+
+<img src="https://github.com/zhou-1/State-Of-Art-Researches/blob/master/YAMLandXMLandJSON/XML.png" width="40%">
 
 
-
-![JSON](JSON.png){:height="50%" width="50%"}       
-
+    
+<img src="https://github.com/zhou-1/State-Of-Art-Researches/blob/master/YAMLandXMLandJSON/JSON.png" wofth="50%">
 
 
 
