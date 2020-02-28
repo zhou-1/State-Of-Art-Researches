@@ -1,3 +1,7 @@
+## WAL    
+
+## YAML
+
 ![YAML](YAML.JPG)      
 
 YAML (a recursive acronym for "YAML Ain't Markup Language") is a human-readable data-serialization language.     
@@ -19,12 +23,15 @@ YAML 支持的数据结构有三种:
 数组：一组按次序排列的值，又称为序列（sequence） / 列表（list）
 纯量（scalars）：单个的、不可再分的值
 
+## XML
 
 <img src="https://github.com/zhou-1/State-Of-Art-Researches/blob/master/YAMLandXMLandJSON/XML.png" width="30%">
 
 
     
-<img src="https://github.com/zhou-1/State-Of-Art-Researches/blob/master/YAMLandXMLandJSON/JSON.png" wofth="30%">
+## JSON   
+
+<img src="https://github.com/zhou-1/State-Of-Art-Researches/blob/master/YAMLandXMLandJSON/JSON.png" wofth="20%">
 
 
 
