@@ -1,4 +1,8 @@
-Clean Architecture!
+Clean Architecture!       
+—Jason Gorman January 26, 2017      
+
+Extreme Programming    
+这些大型架构像恐龙一样在大进程式的原始平原上游荡，然后被一颗叫作“敏捷开发”的小行星灭绝了，真是老天开眼啊！    
 
 10 - 16章在下面    
 
